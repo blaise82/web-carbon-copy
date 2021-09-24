@@ -1,0 +1,52 @@
+{
+  "name": "@blaise.iza/web-carbon-copy",
+  "version": "1.0.1",
+  "description": "COPY ANY WEBSITE WITH JUST A COMMAND",
+  "main": "src/cli.js",
+  "bin": {
+    "web-carbon-copy": "bin/web-carbon-copy"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "web-carbon-copy"
+  ],
+  "author": "Iza.Blaise",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^5.0.0",
+    "chalk": "^4.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "execa": "^5.0.0",
+    "express": "^4.17.1",
+    "inquirer": "^8.0.0",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0",
+    "pkg-install": "^1.0.0",
+    "website-scraper": "^4.2.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.14.0",
+    "@babel/register": "^7.13.16",
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "sinon": "^10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blaise82/web-carbon-copy"
+  },
+  "bugs": {
+    "url": "https://github.com/blaise82/web-carbon-copy/issues"
+  },
+  "homepage": ""
+}
